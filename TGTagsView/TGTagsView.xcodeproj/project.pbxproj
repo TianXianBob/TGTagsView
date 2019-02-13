@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF4370BC211C11760073DEBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4370BB211C11760073DEBA /* AppDelegate.m */; };
+		CF4370BF211C11760073DEBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4370BE211C11760073DEBA /* ViewController.m */; };
+		CF4370C2211C11760073DEBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4370C0211C11760073DEBA /* Main.storyboard */; };
+		CF4370C4211C11770073DEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4370C3211C11770073DEBA /* Assets.xcassets */; };
+		CF4370C7211C11770073DEBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4370C5211C11770073DEBA /* LaunchScreen.storyboard */; };
+		CF4370CA211C11770073DEBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4370C9211C11770073DEBA /* main.m */; };
+		CF4370D4211C11780073DEBA /* TGTagsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4370D3211C11780073DEBA /* TGTagsViewTests.m */; };
+		CF4370DF211C11780073DEBA /* TGTagsViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4370DE211C11780073DEBA /* TGTagsViewUITests.m */; };
+		CF4370EF211C11970073DEBA /* TGTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4370ED211C11960073DEBA /* TGTagsView.m */; };
+		CF7E8FD82212C5E1000F6773 /* NSString+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E8FD32212C5E1000F6773 /* NSString+TG.m */; };
+		CF7E8FD92212C5E1000F6773 /* UIView+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E8FD62212C5E1000F6773 /* UIView+TG.m */; };
+		CFAA0DB02213A8840065CA7F /* DefaultTagsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAA0DAF2213A8840065CA7F /* DefaultTagsTableViewCell.m */; };
+		CFAA0DB32213AAF10065CA7F /* TagsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAA0DB22213AAF10065CA7F /* TagsTableViewCell.m */; };
+		CFAA0DB62213BF030065CA7F /* OptionalTagsViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAA0DB52213BF030065CA7F /* OptionalTagsViewTableViewCell.m */; };
+		CFEA1B062213CA5F00858041 /* VerticalTagsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEA1B052213CA5F00858041 /* VerticalTagsTableViewCell.m */; };
+		CFEA1B092213CFCC00858041 /* TGFlashingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEA1B082213CFCC00858041 /* TGFlashingView.m */; };
+		CFEA1B0C2213D1E000858041 /* UIButton+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEA1B0B2213D1E000858041 /* UIButton+TG.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF4370D0211C11780073DEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4370AF211C11760073DEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4370B6211C11760073DEBA;
+			remoteInfo = TGTagsView;
+		};
+		CF4370DB211C11780073DEBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4370AF211C11760073DEBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4370B6211C11760073DEBA;
+			remoteInfo = TGTagsView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF4370B7211C11760073DEBA /* TGTagsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGTagsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4370BA211C11760073DEBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF4370BB211C11760073DEBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF4370BD211C11760073DEBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF4370BE211C11760073DEBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF4370C1211C11760073DEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF4370C3211C11770073DEBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF4370C6211C11770073DEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF4370C8211C11770073DEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4370C9211C11770073DEBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF4370CF211C11780073DEBA /* TGTagsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGTagsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4370D3211C11780073DEBA /* TGTagsViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTagsViewTests.m; sourceTree = "<group>"; };
+		CF4370D5211C11780073DEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4370DA211C11780073DEBA /* TGTagsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGTagsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4370DE211C11780073DEBA /* TGTagsViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTagsViewUITests.m; sourceTree = "<group>"; };
+		CF4370E0211C11780073DEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4370ED211C11960073DEBA /* TGTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTagsView.m; sourceTree = "<group>"; };
+		CF4370EE211C11970073DEBA /* TGTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTagsView.h; sourceTree = "<group>"; };
+		CF7E8FD12212C5E1000F6773 /* UIView+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TG.h"; sourceTree = "<group>"; };
+		CF7E8FD32212C5E1000F6773 /* NSString+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TG.m"; sourceTree = "<group>"; };
+		CF7E8FD42212C5E1000F6773 /* NSString+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TG.h"; sourceTree = "<group>"; };
+		CF7E8FD62212C5E1000F6773 /* UIView+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TG.m"; sourceTree = "<group>"; };
+		CFAA0DAE2213A8840065CA7F /* DefaultTagsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultTagsTableViewCell.h; sourceTree = "<group>"; };
+		CFAA0DAF2213A8840065CA7F /* DefaultTagsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultTagsTableViewCell.m; sourceTree = "<group>"; };
+		CFAA0DB12213AAF10065CA7F /* TagsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagsTableViewCell.h; sourceTree = "<group>"; };
+		CFAA0DB22213AAF10065CA7F /* TagsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsTableViewCell.m; sourceTree = "<group>"; };
+		CFAA0DB42213BF030065CA7F /* OptionalTagsViewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionalTagsViewTableViewCell.h; sourceTree = "<group>"; };
+		CFAA0DB52213BF030065CA7F /* OptionalTagsViewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionalTagsViewTableViewCell.m; sourceTree = "<group>"; };
+		CFEA1B042213CA5F00858041 /* VerticalTagsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalTagsTableViewCell.h; sourceTree = "<group>"; };
+		CFEA1B052213CA5F00858041 /* VerticalTagsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalTagsTableViewCell.m; sourceTree = "<group>"; };
+		CFEA1B072213CFCC00858041 /* TGFlashingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGFlashingView.h; sourceTree = "<group>"; };
+		CFEA1B082213CFCC00858041 /* TGFlashingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGFlashingView.m; sourceTree = "<group>"; };
+		CFEA1B0A2213D1E000858041 /* UIButton+TG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TG.h"; sourceTree = "<group>"; };
+		CFEA1B0B2213D1E000858041 /* UIButton+TG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TG.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF4370B4211C11760073DEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4370CC211C11780073DEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4370D7211C11780073DEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF4370AE211C11760073DEBA = {
+			isa = PBXGroup;
+			children = (
+				CF4370B9211C11760073DEBA /* TGTagsView */,
+				CF4370D2211C11780073DEBA /* TGTagsViewTests */,
+				CF4370DD211C11780073DEBA /* TGTagsViewUITests */,
+				CF4370B8211C11760073DEBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4370B8211C11760073DEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4370B7211C11760073DEBA /* TGTagsView.app */,
+				CF4370CF211C11780073DEBA /* TGTagsViewTests.xctest */,
+				CF4370DA211C11780073DEBA /* TGTagsViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4370B9211C11760073DEBA /* TGTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				CF4370EC211C11840073DEBA /* TGTagsView */,
+				CF4370BA211C11760073DEBA /* AppDelegate.h */,
+				CF4370BB211C11760073DEBA /* AppDelegate.m */,
+				CF4370BD211C11760073DEBA /* ViewController.h */,
+				CF4370BE211C11760073DEBA /* ViewController.m */,
+				CFAA0DB12213AAF10065CA7F /* TagsTableViewCell.h */,
+				CFAA0DB22213AAF10065CA7F /* TagsTableViewCell.m */,
+				CFAA0DAE2213A8840065CA7F /* DefaultTagsTableViewCell.h */,
+				CFAA0DAF2213A8840065CA7F /* DefaultTagsTableViewCell.m */,
+				CFAA0DB42213BF030065CA7F /* OptionalTagsViewTableViewCell.h */,
+				CFAA0DB52213BF030065CA7F /* OptionalTagsViewTableViewCell.m */,
+				CFEA1B042213CA5F00858041 /* VerticalTagsTableViewCell.h */,
+				CFEA1B052213CA5F00858041 /* VerticalTagsTableViewCell.m */,
+				CFEA1B072213CFCC00858041 /* TGFlashingView.h */,
+				CFEA1B082213CFCC00858041 /* TGFlashingView.m */,
+				CFEA1B0A2213D1E000858041 /* UIButton+TG.h */,
+				CFEA1B0B2213D1E000858041 /* UIButton+TG.m */,
+				CF4370C0211C11760073DEBA /* Main.storyboard */,
+				CF4370C3211C11770073DEBA /* Assets.xcassets */,
+				CF4370C5211C11770073DEBA /* LaunchScreen.storyboard */,
+				CF4370C8211C11770073DEBA /* Info.plist */,
+				CF4370C9211C11770073DEBA /* main.m */,
+			);
+			path = TGTagsView;
+			sourceTree = "<group>";
+		};
+		CF4370D2211C11780073DEBA /* TGTagsViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF4370D3211C11780073DEBA /* TGTagsViewTests.m */,
+				CF4370D5211C11780073DEBA /* Info.plist */,
+			);
+			path = TGTagsViewTests;
+			sourceTree = "<group>";
+		};
+		CF4370DD211C11780073DEBA /* TGTagsViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF4370DE211C11780073DEBA /* TGTagsViewUITests.m */,
+				CF4370E0211C11780073DEBA /* Info.plist */,
+			);
+			path = TGTagsViewUITests;
+			sourceTree = "<group>";
+		};
+		CF4370EC211C11840073DEBA /* TGTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				CF7E8FD02212C5E1000F6773 /* Category */,
+				CF4370EE211C11970073DEBA /* TGTagsView.h */,
+				CF4370ED211C11960073DEBA /* TGTagsView.m */,
+			);
+			path = TGTagsView;
+			sourceTree = "<group>";
+		};
+		CF7E8FD02212C5E1000F6773 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CF7E8FD12212C5E1000F6773 /* UIView+TG.h */,
+				CF7E8FD62212C5E1000F6773 /* UIView+TG.m */,
+				CF7E8FD42212C5E1000F6773 /* NSString+TG.h */,
+				CF7E8FD32212C5E1000F6773 /* NSString+TG.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4370B6211C11760073DEBA /* TGTagsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4370E3211C11780073DEBA /* Build configuration list for PBXNativeTarget "TGTagsView" */;
+			buildPhases = (
+				CF4370B3211C11760073DEBA /* Sources */,
+				CF4370B4211C11760073DEBA /* Frameworks */,
+				CF4370B5211C11760073DEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGTagsView;
+			productName = TGTagsView;
+			productReference = CF4370B7211C11760073DEBA /* TGTagsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF4370CE211C11780073DEBA /* TGTagsViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4370E6211C11780073DEBA /* Build configuration list for PBXNativeTarget "TGTagsViewTests" */;
+			buildPhases = (
+				CF4370CB211C11780073DEBA /* Sources */,
+				CF4370CC211C11780073DEBA /* Frameworks */,
+				CF4370CD211C11780073DEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF4370D1211C11780073DEBA /* PBXTargetDependency */,
+			);
+			name = TGTagsViewTests;
+			productName = TGTagsViewTests;
+			productReference = CF4370CF211C11780073DEBA /* TGTagsViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF4370D9211C11780073DEBA /* TGTagsViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4370E9211C11780073DEBA /* Build configuration list for PBXNativeTarget "TGTagsViewUITests" */;
+			buildPhases = (
+				CF4370D6211C11780073DEBA /* Sources */,
+				CF4370D7211C11780073DEBA /* Frameworks */,
+				CF4370D8211C11780073DEBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF4370DC211C11780073DEBA /* PBXTargetDependency */,
+			);
+			name = TGTagsViewUITests;
+			productName = TGTagsViewUITests;
+			productReference = CF4370DA211C11780073DEBA /* TGTagsViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4370AF211C11760073DEBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "陈星辰";
+				TargetAttributes = {
+					CF4370B6211C11760073DEBA = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					CF4370CE211C11780073DEBA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CF4370B6211C11760073DEBA;
+					};
+					CF4370D9211C11780073DEBA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CF4370B6211C11760073DEBA;
+					};
+				};
+			};
+			buildConfigurationList = CF4370B2211C11760073DEBA /* Build configuration list for PBXProject "TGTagsView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF4370AE211C11760073DEBA;
+			productRefGroup = CF4370B8211C11760073DEBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4370B6211C11760073DEBA /* TGTagsView */,
+				CF4370CE211C11780073DEBA /* TGTagsViewTests */,
+				CF4370D9211C11780073DEBA /* TGTagsViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF4370B5211C11760073DEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4370C7211C11770073DEBA /* LaunchScreen.storyboard in Resources */,
+				CF4370C4211C11770073DEBA /* Assets.xcassets in Resources */,
+				CF4370C2211C11760073DEBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4370CD211C11780073DEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4370D8211C11780073DEBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF4370B3211C11760073DEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAA0DB62213BF030065CA7F /* OptionalTagsViewTableViewCell.m in Sources */,
+				CFAA0DB32213AAF10065CA7F /* TagsTableViewCell.m in Sources */,
+				CF7E8FD92212C5E1000F6773 /* UIView+TG.m in Sources */,
+				CF4370EF211C11970073DEBA /* TGTagsView.m in Sources */,
+				CFEA1B0C2213D1E000858041 /* UIButton+TG.m in Sources */,
+				CFEA1B062213CA5F00858041 /* VerticalTagsTableViewCell.m in Sources */,
+				CF4370BF211C11760073DEBA /* ViewController.m in Sources */,
+				CFAA0DB02213A8840065CA7F /* DefaultTagsTableViewCell.m in Sources */,
+				CF4370CA211C11770073DEBA /* main.m in Sources */,
+				CF4370BC211C11760073DEBA /* AppDelegate.m in Sources */,
+				CF7E8FD82212C5E1000F6773 /* NSString+TG.m in Sources */,
+				CFEA1B092213CFCC00858041 /* TGFlashingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4370CB211C11780073DEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4370D4211C11780073DEBA /* TGTagsViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4370D6211C11780073DEBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4370DF211C11780073DEBA /* TGTagsViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF4370D1211C11780073DEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF4370B6211C11760073DEBA /* TGTagsView */;
+			targetProxy = CF4370D0211C11780073DEBA /* PBXContainerItemProxy */;
+		};
+		CF4370DC211C11780073DEBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF4370B6211C11760073DEBA /* TGTagsView */;
+			targetProxy = CF4370DB211C11780073DEBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF4370C0211C11760073DEBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4370C1211C11760073DEBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF4370C5211C11770073DEBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4370C6211C11770073DEBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF4370E1211C11780073DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF4370E2211C11780073DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF4370E4211C11780073DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74L6VPF8C3;
+				INFOPLIST_FILE = TGTagsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bob.test.TGTagsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF4370E5211C11780073DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74L6VPF8C3;
+				INFOPLIST_FILE = TGTagsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bob.test.TGTagsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF4370E7211C11780073DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74L6VPF8C3;
+				INFOPLIST_FILE = TGTagsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bob.test.TGTagsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGTagsView.app/TGTagsView";
+			};
+			name = Debug;
+		};
+		CF4370E8211C11780073DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74L6VPF8C3;
+				INFOPLIST_FILE = TGTagsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bob.test.TGTagsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGTagsView.app/TGTagsView";
+			};
+			name = Release;
+		};
+		CF4370EA211C11780073DEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74L6VPF8C3;
+				INFOPLIST_FILE = TGTagsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bob.test.TGTagsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGTagsView;
+			};
+			name = Debug;
+		};
+		CF4370EB211C11780073DEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74L6VPF8C3;
+				INFOPLIST_FILE = TGTagsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bob.test.TGTagsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGTagsView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF4370B2211C11760073DEBA /* Build configuration list for PBXProject "TGTagsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4370E1211C11780073DEBA /* Debug */,
+				CF4370E2211C11780073DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4370E3211C11780073DEBA /* Build configuration list for PBXNativeTarget "TGTagsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4370E4211C11780073DEBA /* Debug */,
+				CF4370E5211C11780073DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4370E6211C11780073DEBA /* Build configuration list for PBXNativeTarget "TGTagsViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4370E7211C11780073DEBA /* Debug */,
+				CF4370E8211C11780073DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4370E9211C11780073DEBA /* Build configuration list for PBXNativeTarget "TGTagsViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4370EA211C11780073DEBA /* Debug */,
+				CF4370EB211C11780073DEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF4370AF211C11760073DEBA /* Project object */;
+}
