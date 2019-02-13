@@ -1,7 +1,9 @@
 # TGTagsView
 
 一个方便的创建标签的三方库。支持横向标签布局和纵向标签布局。
+
 优点:
+
 1.支持横向布局和纵向布局。
 2.可以通过内部对象配置标签。
 3.支持完全的自定义标签。
@@ -11,6 +13,7 @@
 
 
 如何使用:
+
 **1. 横向布局用法:**
 横向布局是固定宽度去计算高度。TGTagsViewCustomNature对象中包含了对标签容器View的一些配置属性，还有对标签本身也就是按钮的一些配置属性。
 
@@ -42,6 +45,7 @@ NSDictionary *tagsInfoMap = [v configDataArrayWithArray:contents customNature:na
 ```
 
 **2.纵向布局+自定义创建标签**
+
 纵向布局是固定高度去计算宽度
 标签的本质是一个按钮，如果TGTagsViewCustomNature对象中包含的属性并不能满足你的需求，你可以实现TGTagsViewDelegate的代理方法。通过实现
 *- (CGFloat)itemWidthWithContent:(id)content index:(NSInteger)index*
@@ -78,6 +82,7 @@ NSDictionary *tagsInfoMap = [v configDataArrayWithArray:contents customNature:na
 ```
 
 **3.单项选择标签**
+
 如果标签需要实现单项选择功能，需要去设置TGTagsViewCustomNature对象的**isOption**属性把它设置为YES。如果你要设置默认选中可以去设置TGTagsViewCustomNature对象的**defaultSelectedArray**属性。如果你要默认禁止选中可以设置TGTagsViewCustomNature对象的**defaultEnableArray**属性。
 
 
