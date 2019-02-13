@@ -49,8 +49,8 @@ NSDictionary *tagsInfoMap = [v configDataArrayWithArray:contents customNature:na
 纵向布局是固定高度去计算宽度
 标签的本质是一个按钮，如果TGTagsViewCustomNature对象中包含的属性并不能满足你的需求，你可以实现TGTagsViewDelegate的代理方法。通过实现
 
-* - (CGFloat)itemWidthWithContent:(id)content index:(NSInteger)index
-* - (UIButton *)itemWithContent:(id)content index:(NSInteger)index
+* -(CGFloat)itemWidthWithContent:(id)content index:(NSInteger)index
+* -(UIButton *)itemWithContent:(id)content index:(NSInteger)index
 
 两个数据源方法去创建自定义的标签。
 
